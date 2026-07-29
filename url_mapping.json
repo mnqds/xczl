@@ -1,0 +1,425 @@
+{
+  "base": "http://xczl.onrender.com",
+  "mapping": {
+    "/a___": {
+      "original": "https://gdboom.cn/api/ai/chat",
+      "domain": "gdboom.cn",
+      "path_part": "/api/ai/chat",
+      "handler": "ai_chat"
+    },
+    "/b___________": {
+      "original": "https://gdboom.cn/api/app/resource/db",
+      "domain": "gdboom.cn",
+      "path_part": "/api/app/resource/db",
+      "handler": "resource"
+    },
+    "/c________________________": {
+      "original": "https://gdboom.cn/api/app/resource/gift-categories",
+      "domain": "gdboom.cn",
+      "path_part": "/api/app/resource/gift-categories",
+      "handler": "resource"
+    },
+    "/d_______": {
+      "original": "https://gdboom.cn/api/app/version",
+      "domain": "gdboom.cn",
+      "path_part": "/api/app/version",
+      "handler": "version"
+    },
+    "/e____________________": {
+      "original": "https://gdboom.cn/api/app/video-resource-event",
+      "domain": "gdboom.cn",
+      "path_part": "/api/app/video-resource-event",
+      "handler": "generic"
+    },
+    "/f________________": {
+      "original": "https://gdboom.cn/api/app/watermark-policy",
+      "domain": "gdboom.cn",
+      "path_part": "/api/app/watermark-policy",
+      "handler": "watermark"
+    },
+    "/g________": {
+      "original": "https://gdboom.cn/api/consume-gift",
+      "domain": "gdboom.cn",
+      "path_part": "/api/consume-gift",
+      "handler": "consume_gift"
+    },
+    "/h___________": {
+      "original": "https://gdboom.cn/api/danmaku/resolve",
+      "domain": "gdboom.cn",
+      "path_part": "/api/danmaku/resolve",
+      "handler": "danmaku"
+    },
+    "/i_________": {
+      "original": "https://gdboom.cn/api/danmaku/start",
+      "domain": "gdboom.cn",
+      "path_part": "/api/danmaku/start",
+      "handler": "danmaku"
+    },
+    "/j__________": {
+      "original": "https://gdboom.cn/api/danmaku/status",
+      "domain": "gdboom.cn",
+      "path_part": "/api/danmaku/status",
+      "handler": "danmaku"
+    },
+    "/k________": {
+      "original": "https://gdboom.cn/api/danmaku/stop",
+      "domain": "gdboom.cn",
+      "path_part": "/api/danmaku/stop",
+      "handler": "danmaku"
+    },
+    "/l______________________________": {
+      "original": "https://gdboom.cn/api/douyin/web/fetch_live_gift_ranking",
+      "domain": "gdboom.cn",
+      "path_part": "/api/douyin/web/fetch_live_gift_ranking",
+      "handler": "douyin"
+    },
+    "/m__________": {
+      "original": "https://gdboom.cn/api/feedback/posts",
+      "domain": "gdboom.cn",
+      "path_part": "/api/feedback/posts",
+      "handler": "feedback"
+    },
+    "/n_________________": {
+      "original": "https://gdboom.cn/api/feedback/posts/create",
+      "domain": "gdboom.cn",
+      "path_part": "/api/feedback/posts/create",
+      "handler": "feedback"
+    },
+    "/o_": {
+      "original": "https://gdboom.cn/api/login",
+      "domain": "gdboom.cn",
+      "path_part": "/api/login",
+      "handler": "login"
+    },
+    "/p____": {
+      "original": "https://gdboom.cn/api/register",
+      "domain": "gdboom.cn",
+      "path_part": "/api/register",
+      "handler": "register"
+    },
+    "/q_____": {
+      "original": "https://gdboom.cn/api/send-code",
+      "domain": "gdboom.cn",
+      "path_part": "/api/send-code",
+      "handler": "send_code"
+    },
+    "/r_____": {
+      "original": "https://gdboom.cn/api/user-info",
+      "domain": "gdboom.cn",
+      "path_part": "/api/user-info",
+      "handler": "user_info"
+    },
+    "/s__________________": {
+      "original": "https://gdboom.cn/api/user/parse-quota/today",
+      "domain": "gdboom.cn",
+      "path_part": "/api/user/parse-quota/today",
+      "handler": "parse_quota"
+    },
+    "/t______________________": {
+      "original": "https://gdboom.cn/api/user/purchase-redirect-url",
+      "domain": "gdboom.cn",
+      "path_part": "/api/user/purchase-redirect-url",
+      "handler": "purchase"
+    },
+    "/u_____________": {
+      "original": "https://gdboom.cn/api/user/set-diamonds",
+      "domain": "gdboom.cn",
+      "path_part": "/api/user/set-diamonds",
+      "handler": "set_diamonds"
+    },
+    "/v_________________": {
+      "original": "https://gdboom.cn/api/v1/parse/douyin-share",
+      "domain": "gdboom.cn",
+      "path_part": "/api/v1/parse/douyin-share",
+      "handler": "parse"
+    },
+    "/w________________": {
+      "original": "https://gdboom.cn/api/validate-invite-code",
+      "domain": "gdboom.cn",
+      "path_part": "/api/validate-invite-code",
+      "handler": "card_verify"
+    },
+    "/x____________": {
+      "original": "https://gdboom.cn/api/verify-svip-card",
+      "domain": "gdboom.cn",
+      "path_part": "/api/verify-svip-card",
+      "handler": "card_verify"
+    },
+    "/y______________________": {
+      "original": "https://gdboom.cn/api_123pan_imgs_levelicon.json",
+      "domain": "gdboom.cn",
+      "path_part": "/api_123pan_imgs_levelicon.json",
+      "handler": "api_123pan"
+    },
+    "/z______________": {
+      "original": "https://gdboom.cn/api_123pan_videos.json",
+      "domain": "gdboom.cn",
+      "path_part": "/api_123pan_videos.json",
+      "handler": "api_123pan"
+    },
+    "/A________________": {
+      "original": "https://gdboom.cn/api_gift_ico_dy_cdn.json",
+      "domain": "gdboom.cn",
+      "path_part": "/api_gift_ico_dy_cdn.json",
+      "handler": "gift_ico"
+    },
+    "/B_________": {
+      "original": "https://gdboom.cn/badge_config.json",
+      "domain": "gdboom.cn",
+      "path_part": "/badge_config.json",
+      "handler": "badge_config"
+    },
+    "/C________________________________": {
+      "original": "https://gdboom.cn/img/activity_updates/gift_exhibition.png",
+      "domain": "gdboom.cn",
+      "path_part": "/img/activity_updates/gift_exhibition.png",
+      "handler": "image"
+    },
+    "/D____": {
+      "original": "https://gdboom.cn/img/gifticon",
+      "domain": "gdboom.cn",
+      "path_part": "/img/gifticon",
+      "handler": "image"
+    },
+    "/E_________________________": {
+      "original": "https://gdboom.cn/img/gifticon/gift_categories.json",
+      "domain": "gdboom.cn",
+      "path_part": "/img/gifticon/gift_categories.json",
+      "handler": "image"
+    },
+    "/F_________________": {
+      "original": "https://giftstore.work/api/agent/team?page=",
+      "domain": "giftstore.work",
+      "path_part": "/api/agent/team?page=",
+      "handler": "agent_team"
+    },
+    "/G___________________________": {
+      "original": "https://giftstore.work/api/agent/team?page=1&limit=20",
+      "domain": "giftstore.work",
+      "path_part": "/api/agent/team?page=1&limit=20",
+      "handler": "agent_team"
+    },
+    "/H____________": {
+      "original": "https://giftstore.work/api/invite-code",
+      "domain": "giftstore.work",
+      "path_part": "/api/invite-code",
+      "handler": "card_verify"
+    },
+    "/I_______________": {
+      "original": "https://giftstore.work/api/reset-password",
+      "domain": "giftstore.work",
+      "path_part": "/api/reset-password",
+      "handler": "reset_password"
+    },
+    "/J__________": {
+      "original": "https://giftstore.work/api/send-code",
+      "domain": "giftstore.work",
+      "path_part": "/api/send-code",
+      "handler": "send_code"
+    },
+    "/K__________________": {
+      "original": "https://giftstore.work/api/user/set-diamonds",
+      "domain": "giftstore.work",
+      "path_part": "/api/user/set-diamonds",
+      "handler": "set_diamonds"
+    },
+    "/L____________": {
+      "original": "https://giftstore.work/video_time.json",
+      "domain": "giftstore.work",
+      "path_part": "/video_time.json",
+      "handler": "video_time"
+    }
+  },
+  "replacements": [
+    {
+      "old": "https://gdboom.cn/api/ai/chat",
+      "new": "http://xczl.onrender.com/a___",
+      "offset": 617037
+    },
+    {
+      "old": "https://gdboom.cn/api/app/resource/db",
+      "new": "http://xczl.onrender.com/b___________",
+      "offset": 607986
+    },
+    {
+      "old": "https://gdboom.cn/api/app/resource/gift-categories",
+      "new": "http://xczl.onrender.com/c________________________",
+      "offset": 183089
+    },
+    {
+      "old": "https://gdboom.cn/api/app/version",
+      "new": "http://xczl.onrender.com/d_______",
+      "offset": 605340
+    },
+    {
+      "old": "https://gdboom.cn/api/app/video-resource-event",
+      "new": "http://xczl.onrender.com/e____________________",
+      "offset": 706683
+    },
+    {
+      "old": "https://gdboom.cn/api/app/watermark-policy",
+      "new": "http://xczl.onrender.com/f________________",
+      "offset": 191361
+    },
+    {
+      "old": "https://gdboom.cn/api/consume-gift",
+      "new": "http://xczl.onrender.com/g________",
+      "offset": 256476
+    },
+    {
+      "old": "https://gdboom.cn/api/danmaku/resolve",
+      "new": "http://xczl.onrender.com/h___________",
+      "offset": 708931
+    },
+    {
+      "old": "https://gdboom.cn/api/danmaku/start",
+      "new": "http://xczl.onrender.com/i_________",
+      "offset": 259815
+    },
+    {
+      "old": "https://gdboom.cn/api/danmaku/status",
+      "new": "http://xczl.onrender.com/j__________",
+      "offset": 714307
+    },
+    {
+      "old": "https://gdboom.cn/api/danmaku/stop",
+      "new": "http://xczl.onrender.com/k________",
+      "offset": 371438
+    },
+    {
+      "old": "https://gdboom.cn/api/douyin/web/fetch_live_gift_ranking",
+      "new": "http://xczl.onrender.com/l______________________________",
+      "offset": 392220
+    },
+    {
+      "old": "https://gdboom.cn/api/feedback/posts",
+      "new": "http://xczl.onrender.com/m__________",
+      "offset": 468045
+    },
+    {
+      "old": "https://gdboom.cn/api/feedback/posts/create",
+      "new": "http://xczl.onrender.com/n_________________",
+      "offset": 639844
+    },
+    {
+      "old": "https://gdboom.cn/api/login",
+      "new": "http://xczl.onrender.com/o_",
+      "offset": 240155
+    },
+    {
+      "old": "https://gdboom.cn/api/register",
+      "new": "http://xczl.onrender.com/p____",
+      "offset": 318282
+    },
+    {
+      "old": "https://gdboom.cn/api/send-code",
+      "new": "http://xczl.onrender.com/q_____",
+      "offset": 504721
+    },
+    {
+      "old": "https://gdboom.cn/api/user-info",
+      "new": "http://xczl.onrender.com/r_____",
+      "offset": 339062
+    },
+    {
+      "old": "https://gdboom.cn/api/user/parse-quota/today",
+      "new": "http://xczl.onrender.com/s__________________",
+      "offset": 616673
+    },
+    {
+      "old": "https://gdboom.cn/api/user/purchase-redirect-url",
+      "new": "http://xczl.onrender.com/t______________________",
+      "offset": 395467
+    },
+    {
+      "old": "https://gdboom.cn/api/user/set-diamonds",
+      "new": "http://xczl.onrender.com/u_____________",
+      "offset": 596997
+    },
+    {
+      "old": "https://gdboom.cn/api/v1/parse/douyin-share",
+      "new": "http://xczl.onrender.com/v_________________",
+      "offset": 341604
+    },
+    {
+      "old": "https://gdboom.cn/api/validate-invite-code",
+      "new": "http://xczl.onrender.com/w________________",
+      "offset": 715749
+    },
+    {
+      "old": "https://gdboom.cn/api/verify-svip-card",
+      "new": "http://xczl.onrender.com/x____________",
+      "offset": 660859
+    },
+    {
+      "old": "https://gdboom.cn/api_123pan_imgs_levelicon.json",
+      "new": "http://xczl.onrender.com/y______________________",
+      "offset": 681145
+    },
+    {
+      "old": "https://gdboom.cn/api_123pan_videos.json",
+      "new": "http://xczl.onrender.com/z______________",
+      "offset": 384955
+    },
+    {
+      "old": "https://gdboom.cn/api_gift_ico_dy_cdn.json",
+      "new": "http://xczl.onrender.com/A________________",
+      "offset": 312435
+    },
+    {
+      "old": "https://gdboom.cn/badge_config.json",
+      "new": "http://xczl.onrender.com/B_________",
+      "offset": 309144
+    },
+    {
+      "old": "https://gdboom.cn/img/activity_updates/gift_exhibition.png",
+      "new": "http://xczl.onrender.com/C________________________________",
+      "offset": 371812
+    },
+    {
+      "old": "https://gdboom.cn/img/gifticon",
+      "new": "http://xczl.onrender.com/D____",
+      "offset": 549935
+    },
+    {
+      "old": "https://gdboom.cn/img/gifticon/gift_categories.json",
+      "new": "http://xczl.onrender.com/E_________________________",
+      "offset": 642174
+    },
+    {
+      "old": "https://giftstore.work/api/agent/team?page=",
+      "new": "http://xczl.onrender.com/F_________________",
+      "offset": 724092
+    },
+    {
+      "old": "https://giftstore.work/api/agent/team?page=1&limit=20",
+      "new": "http://xczl.onrender.com/G___________________________",
+      "offset": 704068
+    },
+    {
+      "old": "https://giftstore.work/api/invite-code",
+      "new": "http://xczl.onrender.com/H____________",
+      "offset": 273812
+    },
+    {
+      "old": "https://giftstore.work/api/reset-password",
+      "new": "http://xczl.onrender.com/I_______________",
+      "offset": 724933
+    },
+    {
+      "old": "https://giftstore.work/api/send-code",
+      "new": "http://xczl.onrender.com/J__________",
+      "offset": 591253
+    },
+    {
+      "old": "https://giftstore.work/api/user/set-diamonds",
+      "new": "http://xczl.onrender.com/K__________________",
+      "offset": 480256
+    },
+    {
+      "old": "https://giftstore.work/video_time.json",
+      "new": "http://xczl.onrender.com/L____________",
+      "offset": 498006
+    }
+  ]
+}
